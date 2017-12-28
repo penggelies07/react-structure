@@ -15,7 +15,6 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
   constructor (props: IHomeProps) {
     super(props)
     this.state = {}
-    console.log(this.props)
   }
 
   render () {
